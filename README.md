@@ -30,7 +30,7 @@ Users can test their knowledge through interactive quizzes, track scores in real
 
 Clone the repo:  
 ```bash
-git clone https://github.com/your-username/quiz-app.git
+git clone https://github.com/Rethabile2004/quiz-app.git
 cd quiz-app
 npm install
 npm run dev
