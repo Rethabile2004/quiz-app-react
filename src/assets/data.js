@@ -1,6 +1,6 @@
 export const data=[
     {
-        question:"Which device is required for the internet connetion",
+        question:"Which device is required for the internet connetion?",
         option1:"Modem",
         option2:"Router",
         option3:"LAN Cable",
@@ -8,7 +8,7 @@ export const data=[
         ans:1
     },
     {
-        question:"Which continent has the highest number of countries",
+        question:"Which continent has the highest number of countries?",
         option1:"Asia",
         option2:"Europe",
         option3:"North America",
@@ -16,7 +16,7 @@ export const data=[
         ans:4
     },
     {
-        question:"Junk email is also called>",
+        question:"Junk email is also called?",
         option1:"Spem",
         option2:"Fake",
         option3:"Achived",
