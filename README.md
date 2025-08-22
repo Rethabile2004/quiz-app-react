@@ -1,5 +1,5 @@
 📌 Repository Description
-A fully functional Quiz Web App built with React + Vite. Users can test their knowledge through interactive quizzes, track scores in real-time, and enjoy a fast, responsive experience powered by modern front-end tools.
+A fully functional Quiz Web App built with React + Vite. Users can test their knowledge through interactive quizzes, track scores in real-time, and enjoy a fast, responsive experience powered by modern front-end tools.	
 📸 Screenshots
 <img width="772" height="785" alt="screenshot2" src="https://github.com/user-attachments/assets/25935311-bd86-4ba4-96de-b5113f497741" /> <img width="772" height="785" alt="screenshot3" src="https://github.com/user-attachments/assets/2d11faf4-a58a-4920-9a47-6bb8eaf9e611" />
 
