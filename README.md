@@ -1,12 +1,41 @@
-# React + Vite
+# 🎯 Quiz App – React + Vite  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional **Quiz Web App** built with **React + Vite**.  
+Users can test their knowledge through interactive quizzes, track scores in real-time, and enjoy a fast, responsive experience powered by modern front-end tools.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots  
 
-## Expanding the ESLint configuration
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/25935311-bd86-4ba4-96de-b5113f497741" alt="screenshot1" width="350" />
+  <img src="https://github.com/user-attachments/assets/2d11faf4-a58a-4920-9a47-6bb8eaf9e611" alt="screenshot2" width="350" />
+</p>  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8da6e02f-1a66-43f4-a705-90618b8e478a" alt="screenshot3" width="500" />
+</p>  
+
+---
+
+## 🚀 Tech Stack  
+
+- ⚛️ **React** – Component-based UI  
+- ⚡ **Vite** – Lightning-fast bundler and HMR  
+- 🛡️ **ESLint** – Code linting and best practices  
+
+---
+
+## 🛠️ Getting Started  
+
+Clone the repo:  
+```bash
+git clone https://github.com/Rethabile2004/quiz-app.git
+cd quiz-app
+npm install
+npm run dev
+```
+Open in browser
+http://localhost:5173/
+
+
