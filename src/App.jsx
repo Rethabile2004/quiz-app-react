@@ -1,14 +1,11 @@
+//
+//  Rethabile Eric Siase
+//  Quiz web app
+//
 
-import './App.css'
-import Quiz from '/src/components/Quiz/Quiz.jsx';
+import Quiz from "/src/components/Quiz/Quiz.jsx";
 function App() {
-  
-
-  return (
-    <>
-      <Quiz/> 
-    </>
-  )
+  return <Quiz />;
 }
 
-export default App
+export default App;
