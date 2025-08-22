@@ -32,3 +32,10 @@ Clone the repo:
 ```bash
 git clone https://github.com/your-username/quiz-app.git
 cd quiz-app
+npm install
+npm run dev
+```
+Open in browser
+http://localhost:5173/
+
+
