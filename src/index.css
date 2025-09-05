@@ -1,13 +1,32 @@
-/* 
-    Rethabile Eric Siase
+/*  
+   Rethabile Eric Siase  
+   Global Reset & Background Styles  
 */
 
-*{
-margin:0;
-padding:0;
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    height:120vh;
-    background-image: linear-gradient(#D8C7FF,#19006C);
+/* Base body styling */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffffff, #aae6af);
+  font-family: Arial, sans-serif;
+  color: #262626;
+  line-height: 1.5;
+}
+
+/* Ensure root fills viewport */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Optional: smooth scrolling */
+html {
+  scroll-behavior: smooth;
 }

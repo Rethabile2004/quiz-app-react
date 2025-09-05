@@ -1,21 +1,31 @@
+/*  
+   Rethabile Eric Siase  
+   Global Styles for Quiz Web App  
+*/
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  font-family: Arial, sans-serif;
   text-align: center;
+  background-color: #f5f5f5;
+  min-height: 100vh;
 }
 
+/* 🖼️ App logo styles */
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
-  transition: filter 300ms;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 2em rgba(100, 108, 255, 0.6));
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em rgba(97, 218, 251, 0.6));
 }
 
 @keyframes logo-spin {
@@ -33,10 +43,50 @@
   }
 }
 
+/* 📦 Card container */
 .card {
+  background: #fff;
   padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 1.5em auto;
+  max-width: 600px;
 }
 
+/* 📖 Docs / helper text */
 .read-the-docs {
-  color: #888;
+  color: #666;
+  font-size: 14px;
+  margin-top: 1em;
+}
+
+/* 🔘 Global button reset (matches Quiz/Home) */
+button {
+  background: #4caf50;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+button:hover {
+  background: #45a049;
+  transform: scale(1.03);
+}
+
+/* 📱 Responsive tweaks */
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+
+  .card {
+    padding: 1.5em;
+  }
+
+  .logo {
+    height: 4em;
+  }
 }

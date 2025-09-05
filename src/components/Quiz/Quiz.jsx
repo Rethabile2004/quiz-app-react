@@ -1,33 +1,31 @@
-//
-//  Rethabile Eric Siase
-//  Quiz web app Component
-//
+// Rethabile Eric Siase
+// Quiz web app Component
 
 import "./Quiz.css";
 import React, { useState, useRef } from "react";
 import { data } from "../../assets/data.js";
 
-
 const Quiz = () => {
+  const [index, setIndex] = useState(0);
+  const [question, setQuestion] = useState(data[0]);
+  const [lock, setLock] = useState(false);
+  const [score, setScore] = useState(0);
+  const [result, setResult] = useState(false);
 
-  let [index, setIndex] = useState(0);
-  let [question, setQuestion] = useState(data[index]);
-  let [lock, setLock] = useState(false);
-  let option1 = useRef(null);
-  let option2 = useRef(null);
-  let option3 = useRef(null);
-  let option4 = useRef(null);
-  let [score, setScore] = useState(0);
-  let option_array = [option1, option2, option3, option4];
-  let [result, setResult] = useState(false);
+  const option1 = useRef(null);
+  const option2 = useRef(null);
+  const option3 = useRef(null);
+  const option4 = useRef(null);
+
+  const option_array = [option1, option2, option3, option4];
 
   // method to handle user choice
   const checkAns = (e, ans) => {
-    if (lock === false) {
+    if (!lock) {
       if (question.ans === ans) {
         e.target.classList.add("correct");
         setLock(true);
-        setScore(++score);
+        setScore((prev) => prev + 1);
       } else {
         e.target.classList.add("wrong");
         option_array[question.ans - 1].current.classList.add("correct");
@@ -38,36 +36,36 @@ const Quiz = () => {
 
   // method used to handle onClick for the button
   const next = () => {
-    if (lock === true) {
+    if (lock) {
       if (index === data.length - 1) {
         setResult(true);
-        return 0;
+        return;
       }
-      setIndex(++index);
-      setQuestion(data[index]);
+      setIndex((prevIndex) => {
+        const newIndex = prevIndex + 1;
+        setQuestion(data[newIndex]);
+        return newIndex;
+      });
       setLock(false);
-      option_array.map((option) => {
+      option_array.forEach((option) => {
         option.current.classList.remove("wrong");
         option.current.classList.remove("correct");
-        return null;
       });
     }
   };
 
-  //method for reseting the quiz
+  // method for reseting the quiz
   const reset = () => {
     setIndex(0);
-    setQuestion(data[index]);
+    setQuestion(data[0]);
     setLock(false);
     setScore(0);
     setResult(false);
-    option_array.map((option) => {
+    option_array.forEach((option) => {
       option.current.classList.remove("wrong");
       option.current.classList.remove("correct");
-      return null;
     });
   };
-
 
   return (
     <div className="container">
