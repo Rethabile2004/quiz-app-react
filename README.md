@@ -8,8 +8,12 @@ Users can test their knowledge through interactive quizzes, track scores in real
 ## 📸 Screenshots  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/25935311-bd86-4ba4-96de-b5113f497741" alt="screenshot1" width="350" />
-  <img src="https://github.com/user-attachments/assets/2d11faf4-a58a-4920-9a47-6bb8eaf9e611" alt="screenshot2" width="350" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/d9dccbf2-a7b3-44b2-b531-f50c4e198bd7" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/58b467c7-edc3-4377-bead-3389034efae4" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/b3f62f4e-d213-4bda-883b-ec34fa1f886a" />
+
+  <img width="350"  alt="screenshot1" src="https://github.com/user-attachments/assets/d4d2604a-68bf-43a0-80dc-6e28570c352d" />
+<img width="350" alt="screenshot2" src="https://github.com/user-attachments/assets/f9b34a0e-9182-4b86-b8b5-399898afa44d" />
 </p>  
 
 <p align="center">
