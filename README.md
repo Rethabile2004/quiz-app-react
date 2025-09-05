@@ -11,11 +11,11 @@ Users can test their knowledge through interactive quizzes, track scores in real
 <img width="350" alt="image" src="https://github.com/user-attachments/assets/d9dccbf2-a7b3-44b2-b531-f50c4e198bd7" />
 <img width="350" alt="image" src="https://github.com/user-attachments/assets/58b467c7-edc3-4377-bead-3389034efae4" />
 <img width="350" alt="image" src="https://github.com/user-attachments/assets/b3f62f4e-d213-4bda-883b-ec34fa1f886a" />
-  <img width="370"  alt="screenshot1" src="https://github.com/user-attachments/assets/d4d2604a-68bf-43a0-80dc-6e28570c352d" />
+  
 </p>  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8da6e02f-1a66-43f4-a705-90618b8e478a" alt="screenshot3" width="500" />
+  <img width="370"  alt="screenshot1" src="https://github.com/user-attachments/assets/d4d2604a-68bf-43a0-80dc-6e28570c352d" />
 </p>  
 
 ---
